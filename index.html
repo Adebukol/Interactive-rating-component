@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <section id="our-rate" class="review">
+<img class="star" src="images/icon-star.svg" alt="start-img">
+
+  <h1>How did we do?</h1>
+
+  <p class="text">Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
+
+  <div id="rate-me" class="ratings">
+    <p id="firstRate" class="rate">1</p>
+    <p id="scndRate" class="rate" >2</p>
+    <p id="thirdRate" class="rate" >3</p>
+    <p id="fourthRate" class="rate" >4</p>
+    <p id="fifthRate" class="rate" >5</p>
+    </div>
+
+  <button id="save-el" onclick="show()" class="submit-btn" type="submit">SUBMIT</button>
+</section>
+  <!-- --------------------------------------Rating state end ----------------------------------------->
+  <section id="thankyou-msg" class="thank-you">
+    <div class="t-items">
+      <img class="thankyou-img" src="images/illustration-thank-you.svg" alt="thankyou-img">
+
+      <p id="show-rating" class="show">You selected <span id="result">0</span> <!-- Add rating here --> out of 5</p>
+
+      <h1 class="t-header">Thank you!</h1>
+
+      <p  class="t-text">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+    </div>
+  </section>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Adebukol">Adebukola Omowole</a>.
+  </div>
+
+</body>
+<script src="./app.js"></script>
+</html>
