@@ -34,3 +34,7 @@ function ef() {
   fifthEl.style.background ="hsl(217, 12%, 63%)";
 };
 
+function view(){
+  document.getElementById("our-rate").style.display = "block";
+  document.getElementById("thank-you-msg").style.display = "none";
+}
