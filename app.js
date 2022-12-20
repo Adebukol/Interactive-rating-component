@@ -36,5 +36,5 @@ function ef() {
 
 function view(){
   document.getElementById("our-rate").style.display = "block";
-  document.getElementById("thank-you-msg").style.display = "none";
+  document.getElementById("thankyou-msg").style.display = "none";
 }
