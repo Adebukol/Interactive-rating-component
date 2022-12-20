@@ -11,10 +11,26 @@ function show(){
 }
 
 
-const element= document.getElementById("firstRate")
-element.addEventListener("click", function(e) {
-  document.querySelector(".rate").style.background ="hsl(217, 12%, 63%)";
-});
+let firstEl= document.getElementById("firstRate");
+let secondEl= document.getElementById("scndRate");
+let thirdEl= document.getElementById("thirdRate");
+let fourthEl= document.getElementById("fourthRate"); 
+let fifthEl= document.getElementById("fifthRate");
 
-localStorage.setItem('selectedNumber', [['1'],['2'],['3'],['4'],['5']]);
-localStorage.getItem('selectedNumber');
+function bg() {
+  firstEl.style.background ="hsl(217, 12%, 63%)";
+};
+
+function cl() {
+  secondEl.style.background ="hsl(217, 12%, 63%)";
+};
+function ab() {
+  thirdEl.style.background ="hsl(217, 12%, 63%)";
+};
+function cd() {
+  fourthEl.style.background ="hsl(217, 12%, 63%)";
+};
+function ef() {
+  fifthEl.style.background ="hsl(217, 12%, 63%)";
+};
+

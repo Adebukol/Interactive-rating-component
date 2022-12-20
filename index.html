@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive rating component</title>
@@ -18,11 +20,11 @@
   to help us improve our offering!</p>
 
   <div id="rate-me" class="ratings">
-    <p id="firstRate" class="rate">1</p>
-    <p id="scndRate" class="rate" >2</p>
-    <p id="thirdRate" class="rate" >3</p>
-    <p id="fourthRate" class="rate" >4</p>
-    <p id="fifthRate" class="rate" >5</p>
+    <p id="firstRate" class="rate" onclick="bg()">1</p>
+    <p id="scndRate" class="rate" onclick="cl()">2</p>
+    <p id="thirdRate" class="rate" onclick="ab()" >3</p>
+    <p id="fourthRate" class="rate" onclick="cd()" >4</p>
+    <p id="fifthRate" class="rate" onclick="ef()">5</p>
     </div>
 
   <button id="save-el" onclick="show()" class="submit-btn" type="submit">SUBMIT</button>
